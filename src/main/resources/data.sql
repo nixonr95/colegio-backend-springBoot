@@ -1,0 +1,65 @@
+insert into colegios(name_colegio) values ('Colegio del Olimpo');
+
+insert into cursos(salon,grado,id_colegio) values ('A',10,1);
+insert into cursos(salon,grado,id_colegio) values ('B',10,1);
+insert into cursos(salon,grado,id_colegio) values ('A',11,1);
+insert into cursos(salon,grado,id_colegio) values ('B',11,1);
+
+insert into profesores(name_profesor) values ('Nemesis');
+insert into profesores(name_profesor) values ('Priapo');
+insert into profesores(name_profesor) values ('Iris');
+
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Matematicas',1,1);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Matematicas',1,2);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Matematicas',1,3);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Matematicas',1,4);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Español',2,1);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Español',2,2);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Ingles basico',3,1);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Ingles avanzado',3,2);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Pre icfes',1,3);
+insert into asignaturas(name_asignatura,id_profesor,id_curso) values ('Pre icfes',1,4);
+
+insert into estudiantes(name_estudiante) values ('Afrodita');
+insert into estudiantes(name_estudiante) values ('Apolo');
+insert into estudiantes(name_estudiante) values ('Ares');
+insert into estudiantes(name_estudiante) values ('Artemisa');
+insert into estudiantes(name_estudiante) values ('Atenea');
+insert into estudiantes(name_estudiante) values ('Dionisio');
+insert into estudiantes(name_estudiante) values ('Hefesto');
+insert into estudiantes(name_estudiante) values ('Hera');
+insert into estudiantes(name_estudiante) values ('Hermes');
+insert into estudiantes(name_estudiante) values ('Hades');
+insert into estudiantes(name_estudiante) values ('Poseidon');
+insert into estudiantes(name_estudiante) values ('Zeus');
+
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (1,1);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (5,1);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (7,1);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (1,2);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (5,2);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (7,2);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (1,3);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (5,3);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (7,3);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (2,4);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (6,4);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (8,4);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (2,5);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (6,5);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (8,5);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (2,6);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (6,6);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (8,6);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (3,7);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (9,7);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (3,8);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (9,8);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (4,9);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (10,9);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (4,10);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (10,10);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (4,11);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (10,11);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (4,12);
+insert into asignaturas_cursadas(id_asignatura,id_estudiante) values (10,12);
